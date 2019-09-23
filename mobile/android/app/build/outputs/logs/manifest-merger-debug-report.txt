@@ -1,0 +1,262 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:@react-native-community_async-storage] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-intl] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-intl/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.60.5] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/cd476ed66c6c8e8710a16173b8fb9667/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/77e91015bca63fc45adf8cf6d9b1dee0/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ced6e8f66e21c5cd3781186247b1338c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/7cc314b9e904e6f9ace3fc157e9788a9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b4eb48accbc90845a13e88490f462ff5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ad0d59fa06cdd01373611d438de587bf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/9f4ac205ceb04a0144a28e654f764be3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b70d36bf7a222cdd87575f8f3bd0ff87/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/1bdeb9fcca9f0f75655ed368b64d8156/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b4843dfcc1dff2ba144479377ce43c29/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d71109a8770be8159437ba4feb67d7db/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/5ac8dab17e0520663d174976216b2834/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/1d02b646c094610bdeeb7c63b2836778/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/60fc12145de319c599557f630d896ba1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/05ca8728b85943bdd684ac8e54402cc3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/8753ba575d7505dcba5b1c6eaf4d3191/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/03f76ed95c4b1d4f461cf79af33d4631/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/42a8d943e25fcfdb8bb24118f54283fd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/068c1d586f302b27e6f9a81f9f347e48/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/fd2506810d384fdcdb33b144ca65e6e2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d3c7dd2e9afe93d6203f95bfda6c7552/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/edde86d020866b095d302e5818ec1129/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d100072dfd6070b4dcf0bb5992563952/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/4879b7b4fb672dee9abe6290fe568feb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/af4a3731f2de84d2a886d18e3c34f7e1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/df83b7a44717c691c2ddc3da23129acf/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ed8930e02724108152e3b352f9ade1a0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d9e74c322fa432ae3def92b37386d18c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/a2df84701af2407e55513a9c63d89977/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/9b64f71027451ed7a89427281301f0ba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/73a07ba607b1eb48cf9cc386c30eb239/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/397ec526f80b0826fc49f0c0d210f613/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ede4c747acee9a797d2d7cdc0a51035b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/6599e89614dbe6c7e5d88ef58f7a147a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ed16ef49c7c3fab5f5af2a65ac12d395/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d252f6a162d3eb3c9e138ace91929a8c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/029fc07cfa21e817141af1ca0d4e3aac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/2b21b5e076d1d36f5877b3fb3a4a9ddd/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:2:3-24
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:2:3-24
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.60.5] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/cd476ed66c6c8e8710a16173b8fb9667/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.5] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/cd476ed66c6c8e8710a16173b8fb9667/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d71109a8770be8159437ba4feb67d7db/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d71109a8770be8159437ba4feb67d7db/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/df83b7a44717c691c2ddc3da23129acf/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/df83b7a44717c691c2ddc3da23129acf/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ed8930e02724108152e3b352f9ade1a0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ed8930e02724108152e3b352f9ade1a0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/df83b7a44717c691c2ddc3da23129acf/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.meetapp.MainActivity
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml
+MERGED from [:@react-native-community_async-storage] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-intl] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-intl/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-intl] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-intl/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/cd476ed66c6c8e8710a16173b8fb9667/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/cd476ed66c6c8e8710a16173b8fb9667/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/77e91015bca63fc45adf8cf6d9b1dee0/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/77e91015bca63fc45adf8cf6d9b1dee0/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ced6e8f66e21c5cd3781186247b1338c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ced6e8f66e21c5cd3781186247b1338c/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/7cc314b9e904e6f9ace3fc157e9788a9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/7cc314b9e904e6f9ace3fc157e9788a9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b4eb48accbc90845a13e88490f462ff5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b4eb48accbc90845a13e88490f462ff5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ad0d59fa06cdd01373611d438de587bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ad0d59fa06cdd01373611d438de587bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/9f4ac205ceb04a0144a28e654f764be3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/9f4ac205ceb04a0144a28e654f764be3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b70d36bf7a222cdd87575f8f3bd0ff87/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b70d36bf7a222cdd87575f8f3bd0ff87/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/1bdeb9fcca9f0f75655ed368b64d8156/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/1bdeb9fcca9f0f75655ed368b64d8156/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b4843dfcc1dff2ba144479377ce43c29/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/b4843dfcc1dff2ba144479377ce43c29/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d71109a8770be8159437ba4feb67d7db/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d71109a8770be8159437ba4feb67d7db/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/5ac8dab17e0520663d174976216b2834/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/5ac8dab17e0520663d174976216b2834/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/1d02b646c094610bdeeb7c63b2836778/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/1d02b646c094610bdeeb7c63b2836778/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/60fc12145de319c599557f630d896ba1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/60fc12145de319c599557f630d896ba1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/05ca8728b85943bdd684ac8e54402cc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/05ca8728b85943bdd684ac8e54402cc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/8753ba575d7505dcba5b1c6eaf4d3191/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/8753ba575d7505dcba5b1c6eaf4d3191/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/03f76ed95c4b1d4f461cf79af33d4631/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/03f76ed95c4b1d4f461cf79af33d4631/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/42a8d943e25fcfdb8bb24118f54283fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/42a8d943e25fcfdb8bb24118f54283fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/068c1d586f302b27e6f9a81f9f347e48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/068c1d586f302b27e6f9a81f9f347e48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/fd2506810d384fdcdb33b144ca65e6e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/fd2506810d384fdcdb33b144ca65e6e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d3c7dd2e9afe93d6203f95bfda6c7552/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d3c7dd2e9afe93d6203f95bfda6c7552/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/edde86d020866b095d302e5818ec1129/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/edde86d020866b095d302e5818ec1129/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d100072dfd6070b4dcf0bb5992563952/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d100072dfd6070b4dcf0bb5992563952/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/4879b7b4fb672dee9abe6290fe568feb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/4879b7b4fb672dee9abe6290fe568feb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/af4a3731f2de84d2a886d18e3c34f7e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/af4a3731f2de84d2a886d18e3c34f7e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/df83b7a44717c691c2ddc3da23129acf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/df83b7a44717c691c2ddc3da23129acf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ed8930e02724108152e3b352f9ade1a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ed8930e02724108152e3b352f9ade1a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d9e74c322fa432ae3def92b37386d18c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d9e74c322fa432ae3def92b37386d18c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/a2df84701af2407e55513a9c63d89977/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/a2df84701af2407e55513a9c63d89977/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/9b64f71027451ed7a89427281301f0ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/9b64f71027451ed7a89427281301f0ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/73a07ba607b1eb48cf9cc386c30eb239/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/73a07ba607b1eb48cf9cc386c30eb239/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/397ec526f80b0826fc49f0c0d210f613/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/397ec526f80b0826fc49f0c0d210f613/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ede4c747acee9a797d2d7cdc0a51035b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ede4c747acee9a797d2d7cdc0a51035b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/6599e89614dbe6c7e5d88ef58f7a147a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/6599e89614dbe6c7e5d88ef58f7a147a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ed16ef49c7c3fab5f5af2a65ac12d395/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/ed16ef49c7c3fab5f5af2a65ac12d395/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d252f6a162d3eb3c9e138ace91929a8c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/d252f6a162d3eb3c9e138ace91929a8c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/029fc07cfa21e817141af1ca0d4e3aac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/029fc07cfa21e817141af1ca0d4e3aac/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/2b21b5e076d1d36f5877b3fb3a4a9ddd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/daniofilho/.gradle/caches/transforms-2/files-2.1/2b21b5e076d1d36f5877b3fb3a4a9ddd/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] /home/daniofilho/Trabalho/Github/bootcamp-gostack-meetapp/mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67

@@ -5,6 +5,7 @@ import { Op } from 'sequelize';
 import Meetup from '../models/Meetup';
 import Subscription from '../models/Subscription';
 import User from '../models/User';
+import File from '../models/File';
 
 import SubscriptionMail from '../jobs/SubscriptionMail';
 import Queue from '../../lib/Queue';
@@ -27,6 +28,10 @@ class SubscriptionController {
             {
               model: User,
               attributes: ['id', 'name', 'email'],
+            },
+            {
+              model: File,
+              attributes: ['id', 'path', 'url'],
             },
           ],
         },
@@ -119,6 +124,21 @@ class SubscriptionController {
     });
 
     return res.json(subscription);
+  }
+
+  async delete(req, res) {
+    const user_id = req.userId;
+    const subscription = await Subscription.findByPk(req.params.id);
+
+    // # Check if user is the owner of subscription
+    if (subscription.user_id !== user_id) {
+      return res.status(401).json({ error: 'Not authorized.' });
+    }
+
+    // # Delete
+    await subscription.destroy();
+
+    return res.send();
   }
 }
 export default new SubscriptionController();

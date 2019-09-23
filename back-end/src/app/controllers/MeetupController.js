@@ -10,7 +10,7 @@ class MeetuppController {
   async index(req, res) {
     const { date, page = 1 } = req.query;
 
-    // Basic list if no date param
+    // Basic list if no date param - All Meetups from user
     if (!date) {
       const meetups = await Meetup.findAll({
         where: { user_id: req.userId },
@@ -27,11 +27,12 @@ class MeetuppController {
       return res.json(meetups);
     }
 
-    // Advanced list
-    const resultsPerPage = 10;
+    // Advanced list - All Meetups
+    const resultsPerPage = 2;
+
     const meetups = await Meetup.findAll({
       where: {
-        user_id: req.userId,
+        // user_id: req.userId,
         date: {
           [Op.between]: [startOfDay(parseISO(date)), endOfDay(parseISO(date))],
         },
@@ -49,7 +50,6 @@ class MeetuppController {
         },
       ],
     });
-
     return res.json(meetups);
   }
 
