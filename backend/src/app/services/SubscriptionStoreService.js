@@ -26,16 +26,16 @@ class SubscriptionStoreService {
       throw new Error(`Meetup does not exist`);
     }
 
-    // # Check if it's not the creator
-    if (meetup.user_id === user.id) {
-      throw new Error(`You can't subscribe to your own Meetup`);
-    }
-
     // # Check past meetup
     if (isBefore(meetup.date, new Date())) {
       throw new Error(
         `Meetup has already happened, you can't subscribe anymore`
       );
+    }
+
+    // # Check if it's not the creator
+    if (meetup.user_id === user.id) {
+      throw new Error(`You can't subscribe to your own Meetup`);
     }
 
     // # check if it's already subscribed

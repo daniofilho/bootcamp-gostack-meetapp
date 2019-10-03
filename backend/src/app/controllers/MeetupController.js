@@ -1,4 +1,4 @@
-import { isBefore, parseISO, startOfDay, endOfDay } from 'date-fns';
+import { isBefore, parseISO } from 'date-fns';
 
 import Meetup from '../models/Meetup';
 
@@ -65,7 +65,7 @@ class MeetupController {
     // # Check if meetup has already happened
     if (isBefore(meetup.date, new Date())) {
       return res.status(400).json({
-        error: "Meetup has already happened, you can't delete it anymore ",
+        error: "Meetup has already happened, you can't change the past",
       });
     }
 

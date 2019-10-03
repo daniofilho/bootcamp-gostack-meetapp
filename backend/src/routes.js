@@ -1,4 +1,9 @@
 import { Router } from 'express';
+
+// # Brute Force protection
+import Brute from 'express-brute';
+import BruteRedis from 'express-brute-redis';
+
 import multer from 'multer';
 import multerConfig from './config/multer';
 
@@ -22,9 +27,22 @@ import authMiddleware from './app/middlewares/auth';
 const routes = new Router();
 const upload = multer(multerConfig);
 
+const bruteStore = new BruteRedis({
+  host: process.env.REDIS_HOST,
+  port: process.env.REDIS_PORT,
+});
+const BruteForce = new Brute(bruteStore, {
+  freeRetries: process.env.NODE_ENV === 'production' ? 2 : 9999999, // prevent protection on tests
+});
+
 // # Sign
 routes.post('/users', validateUserStore, UserController.store);
-routes.post('/sessions', validateSessionStore, SessionController.store);
+routes.post(
+  '/sessions',
+  BruteForce.prevent,
+  validateSessionStore,
+  SessionController.store
+);
 
 // # Middleware
 routes.use(authMiddleware);

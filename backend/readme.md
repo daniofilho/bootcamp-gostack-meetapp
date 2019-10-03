@@ -57,3 +57,9 @@ Para rodar a aplicação, execute o comando `yarn` para instalar as dependência
 `yarn dev` => Servidor padrão
 
 `yarn queue` => Servidor com gerenciamento de Filas
+
+## Testes
+
+Para rodar os testes da aplicação, execute:
+
+`yarn test`
