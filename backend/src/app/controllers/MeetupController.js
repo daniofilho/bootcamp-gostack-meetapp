@@ -50,6 +50,11 @@ class MeetupController {
       meetup_id: req.params.id,
     });
 
+    // # Clear Meetup Cache
+    const cacheKey = `user:${req.userId}:meetups`;
+    await Cache.invalidate('meetups');
+    await Cache.invalidatePrefix(cacheKey);
+
     return res.json(meetupUpdated);
   }
 
@@ -71,6 +76,11 @@ class MeetupController {
 
     // # Delete
     await meetup.destroy();
+
+    // # Clear Meetup Cache
+    const cacheKey = `user:${req.userId}:meetups`;
+    await Cache.invalidate('meetups');
+    await Cache.invalidatePrefix(cacheKey);
 
     return res.send();
   }

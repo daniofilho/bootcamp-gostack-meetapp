@@ -3,7 +3,11 @@ import { primaryButton, buttonHasIcon } from '~/styles/mixins';
 
 export const Container = styled.div`
   max-width: 900px;
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
+
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
 
   display: flex;
   flex-direction: column;

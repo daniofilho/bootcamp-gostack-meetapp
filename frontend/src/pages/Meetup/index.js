@@ -16,7 +16,7 @@ export default function Meetup() {
   const [loading, setLoading] = useState(false);
 
   const meetup = useSelector(state => state.meetup.info);
-
+   
   async function cancelMeetup(meetup_id) {
     setLoading(true);
     await api.delete(`/meetups/${meetup_id}`);

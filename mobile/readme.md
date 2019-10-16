@@ -8,9 +8,14 @@ https://yarnpkg.com/lang/en/
 
 ---
 
-Antes, certifique-se de que o Back End está rodando.
+Antes, certifique-se de que o Back End está rodando, assim como o emulador Android.
 
-REVISAR
-`npm start` em uma aba do terminal
+Comandos para executar:
 
-`react-native run-android` em outra, apenas na primeira vez
+`yarn start` em uma aba do terminal
+
+`yarn react-native run-android` em outra, apenas na primeira vez
+
+Se estiver com Android Emulator, rode o comando abaixo para fazer o redirecionamento de portas
+
+`adb reverse tcp:9090 tcp:9090`

@@ -20,18 +20,23 @@ export default function SignIn() {
   const { loading } = useSelector(state => state.auth);
 
   function handleSubmit({ email, password }) {
+    // const elem = document.querySelector('#logo');
+    // elem.parentNode.removeChild(elem);
     dispatch(signInRequest(email, password));
   }
 
   return (
     <>
-      <img src={logo} alt="GoBarber" />
+      <img src={logo} alt="Meetapp" id="logo" />
 
       <Form schema={schema} onSubmit={handleSubmit}>
         <Input name="email" type="email" placeholder="Seu E-mail" />
         <Input name="password" type="password" placeholder="Sua senha" />
 
-        <button type="submit"> {loading ? 'Carregando...' : 'Acessar'}</button>
+        <button type="submit" data-testid="submit-button">
+          {' '}
+          {loading ? 'Carregando...' : 'Acessar'}
+        </button>
 
         <Link to="/register">Criar conta gratuita</Link>
       </Form>

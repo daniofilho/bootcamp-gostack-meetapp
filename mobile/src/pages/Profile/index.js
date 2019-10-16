@@ -76,7 +76,7 @@ export default function Profile() {
           oldPassword,
           password,
           confirmPassword,
-        })
+        }) 
       );
     } catch (err) {
       Alert.alert('Erro', err.message);

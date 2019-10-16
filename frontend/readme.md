@@ -10,4 +10,4 @@ Rode o seguinte comando para instalar as dependências:
 
 Rode o seguinte comando para executar o projeto em ambiente de desenvolvimento
 
-`yarn dev`
+`yarn start`

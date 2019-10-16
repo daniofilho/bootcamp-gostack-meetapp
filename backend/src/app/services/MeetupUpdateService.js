@@ -4,12 +4,8 @@ import Meetup from '../models/Meetup';
 import User from '../models/User';
 import File from '../models/File';
 
-import Cache from '../../lib/Cache';
-
 class MeetupUpdateService {
   async run({ user_id, meetup_id, data }) {
-    const cacheKey = `user:${user_id}:meetups`;
-
     // # Check if user is the creator of the meetup
     const meetup = await Meetup.findByPk(meetup_id);
 
@@ -35,10 +31,6 @@ class MeetupUpdateService {
 
     // # Update
     await meetup.update(data);
-
-    // # Clear Meetup Cache
-    await Cache.invalidate('meetups');
-    await Cache.invalidatePrefix(cacheKey);
 
     const meetupUpdated = await Meetup.findOne({
       where: { id: meetup_id },

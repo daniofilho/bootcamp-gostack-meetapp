@@ -11,13 +11,7 @@ class MeetupIndexService {
   async run({ user_id, date = null, page }) {
     // # Basic list if no date param - All Meetups from user
     if (!date) {
-      // # Cache
-      const cacheKey = `user:${user_id}:meetups:${page}`;
-      const cached = await Cache.get(cacheKey);
-      if (cached) {
-        return cached;
-      }
-
+      
       const meetups = await Meetup.findAll({
         where: { user_id },
         include: [
@@ -31,20 +25,11 @@ class MeetupIndexService {
         ],
       });
 
-      // set cache
-      await Cache.set(cacheKey, meetups);
-
       return meetups;
     }
 
     // # Advanced list - All Meetups
-    const resultsPerPage = 2;
-
-    // # Cache
-    const cached = await Cache.get('meetups');
-    if (cached) {
-      return cached;
-    }
+    const resultsPerPage = 8;
 
     const meetups = await Meetup.findAll({
       where: {
@@ -65,9 +50,6 @@ class MeetupIndexService {
         },
       ],
     });
-
-    // set cache
-    await Cache.set('meetups', meetups);
 
     return meetups;
   }

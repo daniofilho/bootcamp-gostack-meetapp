@@ -55,6 +55,14 @@ export function* updateMeetup({ payload }) {
     toast.success('Meetup atualizado com sucesso!');
     history.push('/meetup');
 
+    response.data.formatedDate = format(
+      parseISO(response.data.date),
+      "d 'de' MMMM, 'às' HH'h'mm",
+      {
+        locale: pt,
+      }
+    );
+
     yield put(updateMeetupSuccess(response.data));
   } catch (error) {
     toast.error('Erro ao atualizar o meetup, verifique os campos.');

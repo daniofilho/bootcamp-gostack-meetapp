@@ -57,6 +57,9 @@ class SubscriptionController {
       data: req.body,
     });
 
+    const cacheKey = `user:${req.userId}:subscriptions`;
+    await Cache.invalidate(cacheKey);
+
     return res.json(subscription);
   }
 
@@ -71,6 +74,9 @@ class SubscriptionController {
 
     // # Delete
     await subscription.destroy();
+
+    const cacheKey = `user:${req.userId}:subscriptions`;
+    await Cache.invalidate(cacheKey);
 
     return res.send();
   }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Form, Input } from '@rocketseat/unform';
 import * as Yup from 'yup';
@@ -32,7 +32,7 @@ export default function MeetupDetails() {
   const loading = useSelector(state => state.meetup.loading);
 
   const meetup = useSelector(state => state.meetup.info);
-
+ 
   function handleSubmit(data) {
     if (meetup) {
       /* EDIT */
