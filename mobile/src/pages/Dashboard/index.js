@@ -50,7 +50,7 @@ function Dashboard({ isFocused }) {
     });
 
     const data = _page > 1 ? [...meetups, ...response.data] : response.data;
-
+    
     setMeetups(data);
     setPage(_page);
     setLoading(false);
@@ -94,7 +94,7 @@ function Dashboard({ isFocused }) {
       });
       Alert.alert('Sucesso!', 'Inscrição realizada com sucesso.');
     } catch (error) {
-      Alert.alert('Erro: ', error.response.data.error);
+      Alert.alert('Ops, acho que você já está inscrito nesse Meetup');
     }
   }
 
